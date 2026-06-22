@@ -1,3 +1,6 @@
+# Ignora diretório README-IA
+README-IA/
+
 # Ignora arquivos de análise
 workspace/analises/*
 !workspace/analises/.gitkeep
