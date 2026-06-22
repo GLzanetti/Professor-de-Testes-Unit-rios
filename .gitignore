@@ -1,0 +1,7 @@
+# Ignora arquivos de análise
+workspace/analises/*
+!workspace/analises/.gitkeep
+
+# Ignora arquivos de exercícios (opcional, dependendo se você quer versionar os originais)
+workspace/exercicios/*
+!workspace/exercicios/.gitkeep
