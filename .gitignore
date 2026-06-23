@@ -1,6 +1,9 @@
 # Ignora diretório README-IA
 README-IA/
 
+# Ignora diretório de estados temporários do gerador de README
+state/
+
 # Ignora arquivos de análise
 workspace/analises/*
 !workspace/analises/.gitkeep
