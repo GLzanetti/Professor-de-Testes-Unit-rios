@@ -74,7 +74,7 @@ TestesUnitarios/
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/TestesUnitarios.git
+git clone https://github.com/GLzanetti/Professor-de-Testes-Unitarios.git
 cd TestesUnitarios
 ```
 
