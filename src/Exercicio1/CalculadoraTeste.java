@@ -53,3 +53,9 @@ public class CalculadoraTeste {
         assertThrows(ArithmeticException.class , () -> calc.dividir(10, 0));
     }
 }
+
+//- [ X ] **Soma:** Testar a soma de dois números inteiros positivos.
+//- [ X ] **Subtração:** Testar a subtração de dois números inteiros positivos.
+//- [ X ] **Multiplicação:** Testar a multiplicação com zero.
+//- [ X ] **Divisão Sucesso:** Testar a divisão de dois números inteiros que resulte em valor exato.
+//- [ X ] **Divisão Erro:** Testar se tentar dividir por zero lança `ArithmeticException`.

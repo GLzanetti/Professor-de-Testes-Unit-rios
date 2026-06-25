@@ -60,3 +60,10 @@ public class GerenciadorTarefasTest {
                 );
     }
 }
+
+//- [ X ] **Isolamento de Estado:** Garantir que cada teste comece com um `GerenciadorTarefas` limpo.
+//- [ X ] **Adicionar Sucesso:** Testar adicionar uma tarefa válida e verificar se a contagem aumenta e a tarefa está lá.
+//- [ X ] **Adicionar Erro:** Testar se adicionar string vazia ou nula lança `IllegalArgumentException`.
+//- [ X ] **Remover Sucesso:** Adicionar uma tarefa, removê-la e verificar se retornou `true` e se a lista ficou vazia.
+//- [ X ] **Remover Inexistente:** Tentar remover tarefa inexistente e verificar se retornou `false`.
+//- [ X ] **Busca:** Adicionar tarefas e testar a busca parcial por nome (exemplo: buscar "Estudar" deve achar "Estudar JUnit"). Usar `assertAll` para verificar que o resultado está presente e é exatamente o valor correto.
